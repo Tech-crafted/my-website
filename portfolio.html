@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>My Portfolio</title>
     <style>
         body {
@@ -35,6 +35,15 @@
             border-radius: 8px;
             width: 200px;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .project a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .project a:hover {
+            color: #4CAF50;
         }
         footer {
             background: #eee;
@@ -42,46 +51,65 @@
             padding: 10px;
             margin-top: 40px;
         }
+        @media (max-width: 600px) {
+            .skills, .projects {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>KOUSHIK</h1>
-    <p>Welcome to my chetha website!</p>
+    <h1>Pranathi</h1>
+    <p>Welcome to my portfolio website!</p>
 </header>
 
 <section>
     <h2>About Me</h2>
-    <p>I am a student passionate about gaming, time waste, and problem creating. I enjoy wasting time and learning new technologies to waste time.</p>
+    <p>
+        I am a student passionate about coding, designing, and fascinated by Machine Learning.
+        I enjoy learning how websites and chatbots work, and exploring new technologies related to them.
+    </p>
 </section>
 
 <section>
     <h2>Skills</h2>
     <div class="skills">
-        <div class="skill">gaming</div>
-        <div class="skill">time wasting</div>
-        <div class="skill">sleeping</div>
-        <div class="skill">eating</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">C Programming</div>
+        <div class="skill">Python</div>
     </div>
 </section>
 
 <section>
     <h2>Projects</h2>
     <div class="projects">
-        <div class="project"><a href="#">how to sleep for 24 hrs</a></div>
-        <div class="project"><a href="#">how to not utilize your time</a></div>
-        <div class="project"><a href="#">how to be a bad example </a></div>
+        <div class="project">
+            <a href="#">Adventure Game</a>
+            <p>A fun interactive story game built using Python.</p>
+        </div>
+        <div class="project">
+            <a href="#">Text Calculator</a>
+            <p>A calculator that processes user input in natural language.</p>
+        </div>
+        <div class="project">
+            <a href="#">Data Sorting</a>
+            <p>Tool to sort and visualize datasets efficiently.</p>
+        </div>
     </div>
 </section>
 
 <section>
     <h2>Contact</h2>
-    <p>number: 94419xxxxx</p>
+    <p>Email: <a href="mailto:ed24b015@smail.iitm.ac.in">ed24b015@smail.iitm.ac.in</a></p>
+    <p>GitHub: <a href="https://github.com/Tech-crafted/my-website" target="_blank">github.com/Tech-crafted/my-website</a></p>
 </section>
 
 <footer>
-    &copy; 2025 
+    &copy; 2025 Pranathi. All rights reserved.
 </footer>
 
 </body>
