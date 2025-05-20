@@ -8,12 +8,12 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            background-color: #f9f9f9;
-            color: #333;
+            background-color: #f4f1ec; /* Soft beige background */
+            color: #2f2f2f; /* Dark gray text */
         }
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: #6b8e74; /* Muted green */
+            color: #ffffff;
             padding: 20px;
             text-align: center;
         }
@@ -21,7 +21,7 @@
             padding: 20px;
         }
         h2 {
-            color: #4CAF50;
+            color: #6b8e74; /* Match header for consistency */
         }
         .skills, .projects {
             display: flex;
@@ -29,33 +29,28 @@
             flex-wrap: wrap;
         }
         .skill, .project {
-            background: white;
-            border: 1px solid #ddd;
+            background: #ffffff;
+            border: 1px solid #ccc;
             padding: 10px;
             border-radius: 8px;
             width: 200px;
             text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
         }
         .project a {
+            color: #2f2f2f;
             text-decoration: none;
-            color: #333;
             font-weight: bold;
         }
         .project a:hover {
-            color: #4CAF50;
+            color: #6b8e74;
         }
         footer {
-            background: #eee;
+            background: #ddd;
             text-align: center;
             padding: 10px;
             margin-top: 40px;
-        }
-        @media (max-width: 600px) {
-            .skills, .projects {
-                flex-direction: column;
-                align-items: center;
-            }
+            color: #333;
         }
     </style>
 </head>
@@ -68,10 +63,7 @@
 
 <section>
     <h2>About Me</h2>
-    <p>
-        I am a student passionate about coding, designing, and fascinated by Machine Learning.
-        I enjoy learning how websites and chatbots work, and exploring new technologies related to them.
-    </p>
+    <p>I am a student passionate about coding, designing, and also fascinated by Machine Learning. I enjoy learning how websites and chatbots work and exploring new technologies related to them.</p>
 </section>
 
 <section>
@@ -87,29 +79,20 @@
 <section>
     <h2>Projects</h2>
     <div class="projects">
-        <div class="project">
-            <a href="#">Adventure Game</a>
-            <p>A fun interactive story game built using Python.</p>
-        </div>
-        <div class="project">
-            <a href="#">Text Calculator</a>
-            <p>A calculator that processes user input in natural language.</p>
-        </div>
-        <div class="project">
-            <a href="#">Data Sorting</a>
-            <p>Tool to sort and visualize datasets efficiently.</p>
-        </div>
+        <div class="project"><a href="#">Adventure Game</a></div>
+        <div class="project"><a href="#">Text Calculator</a></div>
+        <div class="project"><a href="#">Data Sorting</a></div>
     </div>
 </section>
 
 <section>
     <h2>Contact</h2>
     <p>Email: <a href="mailto:ed24b015@smail.iitm.ac.in">ed24b015@smail.iitm.ac.in</a></p>
-    <p>GitHub: <a href="https://github.com/Tech-crafted/my-website" target="_blank">github.com/Tech-crafted/my-website</a></p>
+    <p><a href="https://github.com/Tech-crafted/my-website" target="_blank">GitHub link</a></p>
 </section>
 
 <footer>
-    &copy; 2025 Pranathi. All rights reserved.
+    &copy; 2025 Pranathi
 </footer>
 
 </body>
